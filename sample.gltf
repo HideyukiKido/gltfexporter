@@ -2,9 +2,9 @@
   "accessors": [
     {
       "componentType": 5125,
-      "count": 36,
+      "count": 255096,
       "max": [
-        23
+        46759
       ],
       "min": [
         0
@@ -13,100 +13,183 @@
     },
     {
       "componentType": 5126,
-      "count": 24,
+      "count": 46760,
       "max": [
+        0.99993902444839478,
         1,
-        1,
-        1
+        0.99996709823608398
       ],
       "min": [
+        -0.99999284744262695,
         -1,
-        -1,
-        -1
+        -0.99997776746749878
       ],
       "type": "VEC3"
     },
     {
       "componentType": 5126,
-      "count": 24,
+      "count": 46760,
       "max": [
-        0.5,
-        0.5,
-        0.5
+        6.3288640975952148,
+        9.6347274780273438,
+        6.5615959167480469
       ],
       "min": [
-        -0.5,
-        -0.5,
-        -0.5
+        -8.0333223342895508,
+        -2.3434405326843262,
+        -5.5210151672363281
       ],
       "type": "VEC3"
     },
     {
       "componentType": 5126,
-      "count": 24,
+      "count": 46760,
       "max": [
-        0.875,
-        1
-      ],
-      "min": [
-        0.125,
-        0
-      ],
-      "type": "VEC2"
-    },
-    {
-      "componentType": 5125,
-      "count": 2280,
-      "max": [
-        438
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "componentType": 5126,
-      "count": 439,
-      "max": [
-        1,
-        1,
-        1
-      ],
-      "min": [
-        -1,
-        -1,
-        -1
-      ],
-      "type": "VEC3"
-    },
-    {
-      "componentType": 5126,
-      "count": 439,
-      "max": [
-        1,
-        2.5142645835876465,
-        1.0000001192092896
-      ],
-      "min": [
-        -1.0000002384185791,
-        0.51426446437835693,
-        -1.0000004768371582
-      ],
-      "type": "VEC3"
-    },
-    {
-      "componentType": 5126,
-      "count": 439,
-      "max": [
-        1.0000001192092896,
-        1
+        0.99973982572555542,
+        0.99939346313476563
       ],
       "min": [
         0,
         0
       ],
       "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        2.5
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0,
+        0,
+        0
+      ],
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        2.5
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        -0.93764448165893555,
+        0,
+        0.34759581089019775
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        2.5
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 1,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 1,
+            "path": "scale"
+          }
+        }
+      ],
+      "name": "Transform:working1",
+      "samplers": [
+        {
+          "input": 4,
+          "interpolation": "LINEAR",
+          "output": 5
+        },
+        {
+          "input": 6,
+          "interpolation": "LINEAR",
+          "output": 7
+        },
+        {
+          "input": 8,
+          "interpolation": "LINEAR",
+          "output": 9
+        }
+      ]
     }
   ],
   "asset": {
@@ -116,20 +199,44 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 191,
+      "byteLength": 197124,
       "byteOffset": 0,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 3101,
-      "byteOffset": 192,
-      "target": 34962
+      "byteLength": 8,
+      "byteOffset": 197124
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 197132
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 197156
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32,
+      "byteOffset": 197164
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 197196
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 197204
     }
   ],
   "buffers": [
     {
-      "byteLength": 3296,
+      "byteLength": 197228,
       "uri": "sample.bin"
     }
   ],
@@ -235,7 +342,7 @@
   ],
   "meshes": [
     {
-      "name": "pCubeShape1",
+      "name": "working1Shape",
       "primitives": [
         {
           "attributes": {
@@ -258,48 +365,18 @@
           "mode": 4
         }
       ]
-    },
-    {
-      "name": "pSphereShape1",
-      "primitives": [
-        {
-          "attributes": {
-            "NORMAL": 5,
-            "POSITION": 6,
-            "TEXCOORD_0": 7
-          },
-          "extensions": {
-            "KHR_draco_mesh_compression": {
-              "attributes": {
-                "NORMAL": 2,
-                "POSITION": 0,
-                "TEXCOORD_0": 1
-              },
-              "bufferView": 1
-            }
-          },
-          "indices": 4,
-          "material": 0,
-          "mode": 4
-        }
-      ]
     }
   ],
   "nodes": [
     {
       "children": [
-        1,
-        2
+        1
       ],
       "name": "sample"
     },
     {
       "mesh": 0,
-      "name": "pCube1"
-    },
-    {
-      "mesh": 1,
-      "name": "pSphere1"
+      "name": "working1"
     }
   ],
   "scene": 0,
