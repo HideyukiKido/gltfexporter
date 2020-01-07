@@ -147,8 +147,20 @@
       "uri": ".\/train_AI.Basecolor.jpg"
     },
     {
+      "name": "train_AI.Emissive",
+      "uri": ".\/train_AI.Emissive.jpg"
+    },
+    {
+      "name": "train_AI.Normal",
+      "uri": ".\/train_AI.Normal.jpg"
+    },
+    {
       "name": "train_AI.Roughness",
       "uri": ".\/train_AI.Roughness.jpg"
+    },
+    {
+      "name": "train_AI.Metallic",
+      "uri": ".\/train_AI.Metallic.jpg"
     }
   ],
   "materials": [
@@ -159,6 +171,9 @@
         0,
         0
       ],
+      "emissiveTexture": {
+        "index": 1
+      },
       "extensions": {
         "LTE_PBR_material": {
           "baseColor": [
@@ -167,7 +182,7 @@
             0
           ],
           "baseColorTexture": {
-            "index": 1
+            "index": 3
           },
           "baseWeight": 0.80000001192092896,
           "coatColor": [
@@ -185,15 +200,21 @@
           "coatWeight": 0,
           "diffuseRoughness": 1,
           "diffuseRoughnessTexture": {
-            "index": 2
+            "index": 4
           },
           "emissionColor": [
-            1,
-            1,
-            1
+            0,
+            0,
+            0
           ],
+          "emissionColorTexture": {
+            "index": 5
+          },
           "emissionWeight": 0,
-          "metalness": 0,
+          "metalness": 1,
+          "metalnessTexture": {
+            "index": 6
+          },
           "specularAnisotropy": 0,
           "specularColor": [
             1,
@@ -202,7 +223,10 @@
           ],
           "specularIOR": 1.5199999809265137,
           "specularRotation": 0,
-          "specularRoughness": 0.10000000149011612,
+          "specularRoughness": 1,
+          "specularRoughnessTexture": {
+            "index": 7
+          },
           "specularWeight": 1,
           "subsurfaceAnisotropy": 0,
           "subsurfaceColor": [
@@ -237,6 +261,9 @@
         }
       },
       "name": "aiStandardSurface1",
+      "normalTexture": {
+        "index": 2
+      },
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           0.80000001192092896,
@@ -247,8 +274,8 @@
         "baseColorTexture": {
           "index": 0
         },
-        "metallicFactor": 0,
-        "roughnessFactor": 0.10000000149011612
+        "metallicFactor": 1,
+        "roughnessFactor": 1
       }
     }
   ],
@@ -333,6 +360,12 @@
       "minFilter": 9729,
       "wrapS": 10497,
       "wrapT": 10497
+    },
+    {
+      "magFilter": 9728,
+      "minFilter": 9728,
+      "wrapS": 10497,
+      "wrapT": 10497
     }
   ],
   "scene": 0,
@@ -356,6 +389,20 @@
         "colorSpace": "sRGB"
       },
       "sampler": 0,
+      "source": 1
+    },
+    {
+      "extras": {
+        "colorSpace": "sRGB"
+      },
+      "sampler": 1,
+      "source": 2
+    },
+    {
+      "extras": {
+        "colorSpace": "sRGB"
+      },
+      "sampler": 0,
       "source": 0
     },
     {
@@ -363,7 +410,28 @@
         "colorSpace": "sRGB"
       },
       "sampler": 0,
+      "source": 3
+    },
+    {
+      "extras": {
+        "colorSpace": "sRGB"
+      },
+      "sampler": 0,
       "source": 1
+    },
+    {
+      "extras": {
+        "colorSpace": "sRGB"
+      },
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "extras": {
+        "colorSpace": "sRGB"
+      },
+      "sampler": 0,
+      "source": 3
     }
   ]
 }
