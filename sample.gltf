@@ -70,7 +70,7 @@
   "buffers": [
     {
       "byteLength": 192,
-      "uri": "expoter.bin"
+      "uri": "sample.bin"
     }
   ],
   "extensionsRequired": [
@@ -205,7 +205,7 @@
       "children": [
         1
       ],
-      "name": "expoter"
+      "name": "sample"
     },
     {
       "mesh": 0,
