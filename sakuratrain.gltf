@@ -252,7 +252,7 @@
       "bufferView": 16,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 2,
+      "count": 6,
       "max": [
         10
       ],
@@ -265,7 +265,7 @@
       "bufferView": 17,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 2,
+      "count": 6,
       "max": [
         0,
         0,
@@ -282,7 +282,7 @@
       "bufferView": 18,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 2,
+      "count": 6,
       "max": [
         10
       ],
@@ -295,7 +295,7 @@
       "bufferView": 19,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 2,
+      "count": 6,
       "max": [
         0,
         0,
@@ -304,7 +304,7 @@
       ],
       "min": [
         0,
-        -0.0087266368791460991,
+        -0.95266145467758179,
         0,
         -0.99996191263198853
       ],
@@ -314,7 +314,7 @@
       "bufferView": 20,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 2,
+      "count": 6,
       "max": [
         10
       ],
@@ -327,7 +327,7 @@
       "bufferView": 21,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 2,
+      "count": 6,
       "max": [
         0.011500000022351742,
         0.011500000022351742,
@@ -489,38 +489,38 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 24,
       "byteOffset": 4211468
     },
     {
       "buffer": 0,
-      "byteLength": 24,
-      "byteOffset": 4211476
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 4211500
-    },
-    {
-      "buffer": 0,
-      "byteLength": 32,
-      "byteOffset": 4211508
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 4211540
+      "byteLength": 72,
+      "byteOffset": 4211492
     },
     {
       "buffer": 0,
       "byteLength": 24,
-      "byteOffset": 4211548
+      "byteOffset": 4211564
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 4211588
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 4211684
+    },
+    {
+      "buffer": 0,
+      "byteLength": 72,
+      "byteOffset": 4211708
     }
   ],
   "buffers": [
     {
-      "byteLength": 4211572,
+      "byteLength": 4211780,
       "uri": "sakuratrain.bin"
     }
   ],
