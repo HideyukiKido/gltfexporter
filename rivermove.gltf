@@ -6509,143 +6509,6 @@
         0.33506596088409424
       ],
       "type": "VEC2"
-    },
-    {
-      "bufferView": 420,
-      "byteOffset": 0,
-      "componentType": 5126,
-      "count": 2,
-      "max": [
-        5
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 421,
-      "byteOffset": 0,
-      "componentType": 5126,
-      "count": 2,
-      "max": [
-        0,
-        0,
-        0
-      ],
-      "min": [
-        0,
-        0,
-        0
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 422,
-      "byteOffset": 0,
-      "componentType": 5126,
-      "count": 2,
-      "max": [
-        5
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 423,
-      "byteOffset": 0,
-      "componentType": 5126,
-      "count": 2,
-      "max": [
-        0,
-        0.57985693216323853,
-        0,
-        1
-      ],
-      "min": [
-        0,
-        0,
-        0,
-        -0.81471830606460571
-      ],
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 424,
-      "byteOffset": 0,
-      "componentType": 5126,
-      "count": 2,
-      "max": [
-        5
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 425,
-      "byteOffset": 0,
-      "componentType": 5126,
-      "count": 2,
-      "max": [
-        1,
-        1,
-        1
-      ],
-      "min": [
-        1,
-        1,
-        1
-      ],
-      "type": "VEC3"
-    }
-  ],
-  "animations": [
-    {
-      "channels": [
-        {
-          "sampler": 0,
-          "target": {
-            "node": 113,
-            "path": "translation"
-          }
-        },
-        {
-          "sampler": 1,
-          "target": {
-            "node": 113,
-            "path": "rotation"
-          }
-        },
-        {
-          "sampler": 2,
-          "target": {
-            "node": 113,
-            "path": "scale"
-          }
-        }
-      ],
-      "name": "Transform:test",
-      "samplers": [
-        {
-          "input": 420,
-          "interpolation": "LINEAR",
-          "output": 421
-        },
-        {
-          "input": 422,
-          "interpolation": "LINEAR",
-          "output": 423
-        },
-        {
-          "input": 424,
-          "interpolation": "LINEAR",
-          "output": 425
-        }
-      ]
     }
   ],
   "asset": {
@@ -9172,41 +9035,11 @@
       "byteLength": 736,
       "byteOffset": 2559776,
       "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 2560512
-    },
-    {
-      "buffer": 0,
-      "byteLength": 24,
-      "byteOffset": 2560520
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 2560544
-    },
-    {
-      "buffer": 0,
-      "byteLength": 32,
-      "byteOffset": 2560552
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 2560584
-    },
-    {
-      "buffer": 0,
-      "byteLength": 24,
-      "byteOffset": 2560592
     }
   ],
   "buffers": [
     {
-      "byteLength": 2560616,
+      "byteLength": 2560512,
       "uri": "rivermove.bin"
     }
   ],
