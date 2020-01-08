@@ -1735,6 +1735,143 @@
         0.37642639875411987
       ],
       "type": "VEC2"
+    },
+    {
+      "bufferView": 112,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        5
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 113,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0,
+        0.46989259123802185,
+        0
+      ],
+      "min": [
+        0,
+        0.46989259123802185,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 114,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        5
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 115,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        -0.99434393644332886,
+        0,
+        0.10620809346437454
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 116,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        5
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 117,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 23,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 23,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 23,
+            "path": "scale"
+          }
+        }
+      ],
+      "name": "Transform:sakuraTree1",
+      "samplers": [
+        {
+          "input": 112,
+          "interpolation": "LINEAR",
+          "output": 113
+        },
+        {
+          "input": 114,
+          "interpolation": "LINEAR",
+          "output": 115
+        },
+        {
+          "input": 116,
+          "interpolation": "LINEAR",
+          "output": 117
+        }
+      ]
     }
   ],
   "asset": {
@@ -2413,11 +2550,41 @@
       "byteLength": 2496,
       "byteOffset": 3677536,
       "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 3680032
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 3680040
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 3680064
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32,
+      "byteOffset": 3680072
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 3680104
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 3680112
     }
   ],
   "buffers": [
     {
-      "byteLength": 3680032,
+      "byteLength": 3680136,
       "uri": "mountain1.bin"
     }
   ],
