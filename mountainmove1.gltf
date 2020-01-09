@@ -548,6 +548,48 @@
             "node": 2,
             "path": "scale"
           }
+        },
+        {
+          "sampler": 3,
+          "target": {
+            "node": 1,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 4,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 5,
+          "target": {
+            "node": 1,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 6,
+          "target": {
+            "node": 3,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 7,
+          "target": {
+            "node": 3,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 8,
+          "target": {
+            "node": 3,
+            "path": "scale"
+          }
         }
       ],
       "name": "Transform:Woman_B",
@@ -566,35 +608,7 @@
           "input": 20,
           "interpolation": "LINEAR",
           "output": 21
-        }
-      ]
-    },
-    {
-      "channels": [
-        {
-          "sampler": 0,
-          "target": {
-            "node": 1,
-            "path": "translation"
-          }
         },
-        {
-          "sampler": 1,
-          "target": {
-            "node": 1,
-            "path": "rotation"
-          }
-        },
-        {
-          "sampler": 2,
-          "target": {
-            "node": 1,
-            "path": "scale"
-          }
-        }
-      ],
-      "name": "Transform:Girl_A",
-      "samplers": [
         {
           "input": 22,
           "interpolation": "LINEAR",
@@ -609,35 +623,7 @@
           "input": 26,
           "interpolation": "LINEAR",
           "output": 27
-        }
-      ]
-    },
-    {
-      "channels": [
-        {
-          "sampler": 0,
-          "target": {
-            "node": 3,
-            "path": "translation"
-          }
         },
-        {
-          "sampler": 1,
-          "target": {
-            "node": 3,
-            "path": "rotation"
-          }
-        },
-        {
-          "sampler": 2,
-          "target": {
-            "node": 3,
-            "path": "scale"
-          }
-        }
-      ],
-      "name": "Transform:man_B1",
-      "samplers": [
         {
           "input": 28,
           "interpolation": "LINEAR",
@@ -1068,12 +1054,6 @@
     {
       "mesh": 0,
       "name": "Girl_A",
-      "rotation": [
-        0,
-        0.17250062525272369,
-        0,
-        -0.98500943183898926
-      ],
       "translation": [
         -0.065424121916294098,
         0,
@@ -1083,12 +1063,6 @@
     {
       "mesh": 1,
       "name": "Woman_B",
-      "rotation": [
-        0,
-        0.25442403554916382,
-        0,
-        -0.96709275245666504
-      ],
       "translation": [
         -0.084021419286727905,
         0,
@@ -1098,12 +1072,6 @@
     {
       "mesh": 2,
       "name": "man_B1",
-      "rotation": [
-        0,
-        0.23926474153995514,
-        0,
-        -0.97095435857772827
-      ],
       "translation": [
         0.068750880658626556,
         0,
