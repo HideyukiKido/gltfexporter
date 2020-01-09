@@ -252,7 +252,7 @@
       "bufferView": 16,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 2,
+      "count": 5,
       "max": [
         10
       ],
@@ -265,7 +265,7 @@
       "bufferView": 17,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 2,
+      "count": 5,
       "max": [
         0,
         0,
@@ -282,7 +282,7 @@
       "bufferView": 18,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 2,
+      "count": 5,
       "max": [
         10
       ],
@@ -295,7 +295,7 @@
       "bufferView": 19,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 2,
+      "count": 5,
       "max": [
         0,
         0,
@@ -304,11 +304,41 @@
       ],
       "min": [
         0,
-        -0.0087266368791460991,
+        -0.99999046325683594,
         0,
         -0.99996191263198853
       ],
       "type": "VEC4"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        7.1666665077209473
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3"
     }
   ],
   "animations": [
@@ -327,6 +357,13 @@
             "node": 2,
             "path": "rotation"
           }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 2,
+            "path": "scale"
+          }
         }
       ],
       "name": "Transform:train",
@@ -340,6 +377,11 @@
           "input": 18,
           "interpolation": "LINEAR",
           "output": 19
+        },
+        {
+          "input": 20,
+          "interpolation": "LINEAR",
+          "output": 21
         }
       ]
     }
@@ -447,28 +489,38 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 20,
       "byteOffset": 4211468
     },
     {
       "buffer": 0,
-      "byteLength": 24,
-      "byteOffset": 4211476
+      "byteLength": 60,
+      "byteOffset": 4211488
     },
     {
       "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 4211500
+      "byteLength": 20,
+      "byteOffset": 4211548
     },
     {
       "buffer": 0,
-      "byteLength": 32,
-      "byteOffset": 4211508
+      "byteLength": 80,
+      "byteOffset": 4211568
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 4211648
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 4211664
     }
   ],
   "buffers": [
     {
-      "byteLength": 4211540,
+      "byteLength": 4211712,
       "uri": "trainmove2.bin"
     }
   ],
